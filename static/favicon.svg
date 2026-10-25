@@ -1,1 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5e9cff"/><stop offset="1" stop-color="#42e7ca"/></linearGradient></defs><rect width="64" height="64" rx="17" fill="#101c35"/><path d="M35 14v25c0 9-4 14-13 14-6 0-10-2-13-6l7-8c1 2 3 3 5 3 3 0 4-2 4-6V14z" fill="white"/><circle cx="47" cy="45" r="7" fill="url(#g)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Logo J slash de Javier Jhordiño">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111f3a"/><stop offset="1" stop-color="#040b18"/></linearGradient>
+ <linearGradient id="blue" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#8fe9ff"/><stop offset=".55" stop-color="#438cff"/><stop offset="1" stop-color="#735aff"/></linearGradient>
+</defs>
+<rect x="1.5" y="1.5" width="61" height="61" rx="14" fill="url(#bg)" stroke="#4b9af8" stroke-width="2"/>
+<path d="M13 15 H38 V39 Q38 50 26 50 Q14 50 12 39" fill="none" stroke="url(#blue)" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+<path d="M50 14 L39 47" stroke="#e3f5ff" stroke-width="5.5" stroke-linecap="round"/>
+<circle cx="52" cy="50" r="4" fill="#45dbff"/>
+</svg>

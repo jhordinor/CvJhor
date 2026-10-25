@@ -11,7 +11,10 @@
   <meta property="og:image" content="{{ url_for('static', filename='img/foto-profesional.webp', _external=True) }}">
   <meta name="robots" content="index,follow">
   <title>Javier Jhordiño | Desarrollador de Software</title>
-  <link rel="icon" href="{{ url_for('static', filename='favicon.svg') }}" type="image/svg+xml">
+  <!-- Identidad visual en la pestaña del navegador -->
+  <link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='favicon.svg', v='2') }}">
+  <link rel="alternate icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.ico', v='2') }}">
+  <link rel="apple-touch-icon" href="{{ url_for('static', filename='apple-touch-icon.png', v='2') }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
